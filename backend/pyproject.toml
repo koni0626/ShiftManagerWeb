@@ -1,0 +1,9 @@
+[project]
+name = "care-atelier-web"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = ["fastapi", "uvicorn[standard]", "sqlalchemy>=2.0,<2.1", "psycopg[binary]", "alembic", "argon2-cffi", "pydantic-settings", "httpx"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

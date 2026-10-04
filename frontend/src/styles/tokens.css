@@ -1,0 +1,19 @@
+@font-face {
+  font-family: AtelierJP;
+  src: url("/fonts/NotoSansJP.ttf") format("truetype");
+  font-weight: 100 900;
+  font-display: swap;
+}
+:root {
+  font-family: AtelierJP, "Yu Gothic UI", sans-serif;
+  font-size: 14px;
+  color: #495243;
+  background: #f4f2eb;
+  font-synthesis: none;
+  --green: #788b67;
+  --green-dark: #536b48;
+  --muted: #818575;
+  --line: #e1dfd2;
+  --paper: #fffef8;
+  --soft: #edf0e2;
+}
